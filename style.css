@@ -1,0 +1,29 @@
+#task-list{
+
+    width: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    row-gap: 1rem;
+    flex-wrap: wrap;
+    
+}
+
+#task-list.hidden{
+    display: none;
+}
+
+#task.list .card{
+    height: fit-content;
+    min-width: 350px;
+}
+
+#task-list .card.completed .card-title,
+#task-list .card.completed .card-text {
+    text-decoration: line-through;
+}
+
+.default-text{
+    display: none;
+}
